@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(202, 82, 82);
+}
+.calculator{
+    border: 2px solid blue;
+    background-color: rgb(168, 127, 221);
+    width: 402px;
+    height: 499px;
+    margin: auto;
+}
+button{
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 95px;
+    height: 65px;
+}
+.textField{
+    width: 391px;
+    height: 75px;
+    background-color: rgb(133, 107, 133);
+    color: white;
+    text-align: right;
+    size: 100px;
+    font-size: 80px;
+}
+button:hover{
+    background-color: rgb(143, 143, 240);
+    color: brown;
+    font-weight: bolder;
+}
+#output{
+    border-bottom: 3px solid rgb(43, 40, 40);
+}
