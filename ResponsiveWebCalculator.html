@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="D:\Web development\Responsive Web Calculator\assets\style.css">
+    <script src="D:\Web development\Responsive Web Calculator\assets\script.js" defer></script>
+</head>
+<body>
+    <h1><center>!!Web Calculator!!</center></h1>
+    <div class="calculator">
+        <div><input type="text" class="textField" id="input"></div>
+        <div><input type="text" class="textField " id="output"></div>
+        <div class="display">
+           <div class="row">
+                <button class="btn" onclick="" value="(">(</button>
+                <button onclick="" value=")">)</button>
+                <button onclick="clear()" id="clear">C</button>
+                <button onclick="operation(id)" id="opDiv" value="/">/</button>
+            </div> 
+            <div class="row">
+                <button onclick="getNumber(id)" id="number-7">7</button>
+                <button onclick="getNumber(id)" id="number-8">8</button>
+                <button onclick="getNumber(id)" id="number-9">9</button>
+                <button onclick="operation(id)" id="opMul" value="*">*</button>
+            </div>
+            <div id="row">
+                <button onclick="getNumber(id)" id="number-4">4</button>
+                <button onclick="getNumber(id)" id="number-5">5</button>
+                <button onclick="getNumber(id)" id="number-6">6</button>
+                <button onclick="operation(id)" id="opMin" value="-">-</button>
+            </div>
+            <div id="row">
+                <button onclick="getNumber(id)" id="number-1">1</button>
+                <button onclick="getNumber(id)" id="number-2">2</button>
+                <button onclick="getNumber(id)" id="number-3">3</button>
+                <button onclick="operation(id)" id="opAdd" value="+">+</button>
+            </div>
+            <div id="row">
+                <button onclick="getNumber(id)" id="period" value=".">.</button>
+                <button onclick="getNumber(id)" id="number-0">0</button>
+                <button onclick="operation(id)" id="percentage" value="%">%</button>
+                <button onclick="getResult()" value="=">=</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
